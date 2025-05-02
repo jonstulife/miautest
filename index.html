@@ -21,36 +21,11 @@
             object-fit: contain;
             max-width: 100%;
             max-height: 100%;
+            filter: blur(8px); /* <<< AQUI está o blur */
         }
-        /* Removido o estilo para o vídeo */
-        /* .video-container {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-        }
-        video {
-            max-width: 100%;
-            max-height: 100vh;
-            object-fit: contain;
-        } */
     </style>
 </head>
 <body>
-    <!-- Mantém a imagem de fundo original -->
     <img src="MeuGatoPreferido.png" alt="Imagem de Fundo">
-
-    <!-- Removido o container do vídeo -->
-    <!-- <div class="video-container">
-        <video autoplay loop muted playsinline>
-            <source src="Dragon.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos HTML5.
-        </video>
-    </div> -->
-
-    <script>
-        // Não é necessário script para o vídeo
-    </script>
 </body>
 </html>
